@@ -16,11 +16,23 @@ body {
 input {
   padding: 8px;
   font: inherit;
+  border-color: blanchedalmond;
+  border-radius: 10px;
+}
+input:hover {
+  box-shadow: 5px 5px 5px lightgray;
+  transition: box-shadow 150ms ease-in;
 }
 
 button {
   padding: 8px 12px;
   cursor: pointer;
+}
+a {
+  color: coral;
+}
+a:hover {
+  color: chocolate;
 }
 .gallery {
   display: flex;
@@ -49,6 +61,8 @@ button {
   border-radius: 10px;
   width: 70px;
   box-shadow: 5px 5px 5px thistle;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 #counter > button:hover {
   scale: 1.1;
