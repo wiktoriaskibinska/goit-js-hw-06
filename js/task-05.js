@@ -1,17 +1,17 @@
 const input = document.querySelector("#name-input");
 const output = document.querySelector("#name-output");
 input.addEventListener("input", () => {
-  output.textContent = input.value;
+  const name = input.value;
+  
+  if (name === null) {
+    output.textContent === "Anonymous";
+  } else {
+    output.textContent = name;
+  }
 });
 
- // const name = input.value;
-  
- //if (name === null) {
- //   output.textContent === "Anonymous";
-  //} else {
-  //  output.textContent = name;
- // }
-//})
+
+
 //or
  // output.textContent = input.value;
 //});
