@@ -4,7 +4,7 @@ nameInput.addEventListener("input", () => {
   const name = nameInput.value;
   
   if (name === "") {
-    nameOutput.textContent === "Anonymous";
+    nameOutput.textContent = "Anonymous";
   } else {
     nameOutput.textContent = name;
   }
